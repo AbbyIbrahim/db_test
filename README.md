@@ -1,6 +1,7 @@
 # db_test
 A small CLI to interact with a Postgres DB for a course. For grading this needs to be public ;-;
 
+video: https://youtu.be/Mup37zLNmCI
 
 ### instructions: 
 - create a Database called school 
@@ -12,3 +13,11 @@ A small CLI to interact with a Postgres DB for a course. For grading this needs 
 - interact with the cli 
 - ?????
 - profit
+
+## function descriptions: 
+
+    getAllStudents(): Retrieves and displays all records from the students table.
+    addStudent(first_name, last_name, email, enrollment_date): Inserts a new student record into the students table.
+    updateStudentEmail(student_id, new_email): Updates the email address for a student with the specified student_id.
+    deleteStudent(student_id): Deletes the record of the student with the specified student_id.
+
